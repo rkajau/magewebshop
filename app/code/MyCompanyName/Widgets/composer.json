@@ -1,0 +1,21 @@
+{
+    "name": "mycompanyname/module-purchased-products-widget",
+    "description": "Magento 2 Purchased Products Widget",
+    "type": "magento2-module",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Rodwell Kajau",
+            "email": "rkajau@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MyCompanyName\\Widgets\\": ""
+        }
+    }
+}

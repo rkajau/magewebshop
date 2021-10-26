@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget id="mcn_purchased_products" class="MyCompanyName\Widgets\Block\PurchasedProducts">
+        <label translate="true">Items Purchased Earlier</label>
+        <description translate="true">A list of products purchased earlier by customer</description>
+        <parameters>
+            <parameter name="title" xsi:type="text" visible="true" required="true">
+                <label translate="true">Title</label>
+            </parameter>
+            <parameter name="display_page" visible="true" xsi:type="select"
+                       source_model="Magento\Config\Model\Config\Source\Yesno">
+                <label translate="true">Display Purchased Products</label>
+            </parameter>
+        </parameters>
+    </widget>
+</widgets>
